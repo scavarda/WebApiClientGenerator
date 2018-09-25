@@ -2,7 +2,7 @@
 
 CLI application for automatic generation of WebApi Client from a swagger.json file.
 
-This CLI wraps [swagger-codegen CLI]("https://github.com/swagger-api/swagger-codegen") and [dotnet CLI]("https://docs.microsoft.com/it-it/dotnet/core/tools/?tabs=netcore2x") 
+This CLI wraps [swagger-codegen CLI](https://github.com/swagger-api/swagger-codegen) and [dotnet CLI](https://docs.microsoft.com/it-it/dotnet/core/tools/?tabs=netcore2x) 
 
 ## Requirements
 NetCore 2.1
