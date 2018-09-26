@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "Scavarda.WebApiClientGenerator": {
-      "commandName": "Project",
-      "commandLineArgs": "build-package -i \"D:\\git\\zodiac-message\\src\\Planet.Message.WebApi\\OpenApi\\swagger.json\" -l netcore2 -n Planet.Message.WebApi.Client -v 2.1.0-preview1 -o D:\\git\\netcore-webapiclient\\WebApiClientGenerator\\WebApiClientGenerator\\bin\\Debug\\netcoreapp2.1\\temp2"
-    }
-  }
-}
