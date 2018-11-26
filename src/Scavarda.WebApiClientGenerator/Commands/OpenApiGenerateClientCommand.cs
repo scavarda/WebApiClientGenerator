@@ -52,7 +52,7 @@ namespace Scavarda.WebApiClientGenerator.Commands
             {
                 DotNetCommandPath = "dotnet",
                 JavaCommandPath = "java",
-                SwaggerCodeGeneratorJarPath = @"C:\Program Files\SwaggerCodGen\swagger-codegen-cli-2.4.0-20180919.042154-327.jar",
+                SwaggerCodeGeneratorJarPath = @"C:\Program Files\SwaggerCodGen\swagger-codegen-cli-2.4.0-20181007.065826-339.jar",
             });
 
             var language = WebApiClientGeneratorLanguage.All;

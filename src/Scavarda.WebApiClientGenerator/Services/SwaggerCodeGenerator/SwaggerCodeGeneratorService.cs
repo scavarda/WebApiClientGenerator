@@ -237,8 +237,10 @@ namespace Scavarda.WebApiClientGenerator.Services.SwaggerCodeGenerator
                     {
                         ModelPropertyNaming = "PascalCase",
                         NetCoreProjectFile = true,
+                        OptionalEmitDefaultValues = false,
                         PackageName = packageName,
                         PackageVersion = packageVersion,
+                        SortParamsByRequiredFlag = true,
                         TargetFramework = "5.0",
                     };
                     break;

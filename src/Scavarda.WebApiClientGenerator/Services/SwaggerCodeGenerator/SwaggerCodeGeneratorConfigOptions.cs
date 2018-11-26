@@ -25,12 +25,18 @@ namespace Scavarda.WebApiClientGenerator.Services.SwaggerCodeGenerator
         [JsonProperty("netCoreProjectFile")]
         public bool NetCoreProjectFile;
 
+        [JsonProperty("optionalEmitDefaultValues")]
+        public bool OptionalEmitDefaultValues;
+        
         [JsonProperty("packageName")]
         public string PackageName;
 
         [JsonProperty("packageVersion")]
         public string PackageVersion;
-
+        
+        [JsonProperty("sortParamsByRequiredFlag")]
+        public bool SortParamsByRequiredFlag;
+        
         [JsonProperty("targetFramework")]
         public string TargetFramework;
     }
